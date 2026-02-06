@@ -5680,6 +5680,7 @@ All notable changes to this project will be documented in this file.
 - *(api)* Improve domains API docs
 - Update changelog
 - Update changelog
+- Update changelog
 
 ### ⚡ Performance
 
@@ -6437,6 +6438,7 @@ All notable changes to this project will be documented in this file.
 - *(api)* Update openapi files
 - Trigger builds
 - Enable manual workflow triggers
+- Use GH_PAT for registry authentication
 
 ### ◀️ Revert
 
