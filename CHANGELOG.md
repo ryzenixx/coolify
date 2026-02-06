@@ -4452,6 +4452,7 @@ All notable changes to this project will be documented in this file.
 - *(perf)* Eliminate N+1 queries from InstanceSettings and Server lookups (#7966)
 - Update version numbers to 4.0.0-beta.462 and 4.0.0-beta.463
 - Use generic postgresql-client
+- *(auth)* Register keycloak event listener and add translations
 
 ### 💼 Other
 
@@ -5681,6 +5682,7 @@ All notable changes to this project will be documented in this file.
 - Add transcript lol link and logo to readme (#7331)
 - *(api)* Change domains to urls
 - *(api)* Improve domains API docs
+- Update changelog
 - Update changelog
 - Update changelog
 - Update changelog
