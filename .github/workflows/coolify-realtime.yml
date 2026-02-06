@@ -1,6 +1,7 @@
 name: Coolify Realtime
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "v4.x" ]
     paths:
