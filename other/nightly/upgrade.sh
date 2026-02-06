@@ -1,7 +1,7 @@
 #!/bin/bash
 ## Do not modify this file. You will lose the ability to autoupdate!
 
-CDN="https://cdn.coollabs.io/coolify-nightly"
+CDN="https://raw.githubusercontent.com/ryzenixx/coolify/v4.x/other/nightly"
 LATEST_IMAGE=${1:-latest}
 LATEST_HELPER_VERSION=${2:-latest}
 REGISTRY_URL=${3:-ghcr.io}
@@ -155,7 +155,7 @@ echo "3/6 Pulling Docker images..."
 echo "     This may take a few minutes depending on your connection."
 
 # Also pull the helper image (not in compose files but needed for upgrade)
-HELPER_IMAGE="${REGISTRY_URL:-ghcr.io}/coollabsio/coolify-helper:${LATEST_HELPER_VERSION}"
+HELPER_IMAGE="${REGISTRY_URL:-ghcr.io}/ryzenixx/coolify-helper:${LATEST_HELPER_VERSION}"
 echo "     - Pulling $HELPER_IMAGE..."
 log "Pulling image: $HELPER_IMAGE"
 if docker pull "$HELPER_IMAGE" >>"$LOGFILE" 2>&1; then

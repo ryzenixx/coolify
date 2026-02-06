@@ -42,7 +42,8 @@ class Help extends Component
                     'content' => 'User: `'.auth()->user()?->email.'` with subject: `'.$this->subject.'` has the following problem: `'.$this->description.'`',
                 ]);
             } else {
-                send_user_an_email($mail, auth()->user()?->email, 'feedback@coollabs.io');
+                // send_user_an_email($mail, auth()->user()?->email, 'feedback@coollabs.io');
+                // Feedback disabled in fork
             }
             $this->dispatch('success', 'Feedback sent.', 'We will get in touch with you as soon as possible.');
             $this->reset('description', 'subject');

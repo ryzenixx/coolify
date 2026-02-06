@@ -186,7 +186,7 @@ class Index extends Component
                 return;
             }
 
-            $buildCommand = "docker build -t ghcr.io/coollabsio/coolify-helper:{$version} -f docker/coolify-helper/Dockerfile .";
+            $buildCommand = "docker build -t ghcr.io/ryzenixx/coolify-helper:{$version} -f docker/coolify-helper/Dockerfile .";
 
             $activity = remote_process(
                 command: [$buildCommand],

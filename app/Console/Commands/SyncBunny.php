@@ -33,7 +33,7 @@ class SyncBunny extends Command
         $this->info('Fetching releases from GitHub...');
         try {
             $response = Http::timeout(30)
-                ->get('https://api.github.com/repos/coollabsio/coolify/releases', [
+                ->get('https://api.github.com/repos/ryzenixx/coolify/releases', [
                     'per_page' => 30,  // Fetch more releases for better changelog
                 ]);
 
@@ -186,7 +186,7 @@ class SyncBunny extends Command
             // 1. Fetch releases from GitHub API
             $this->info('Fetching releases from GitHub API...');
             $response = Http::timeout(30)
-                ->get('https://api.github.com/repos/coollabsio/coolify/releases', [
+                ->get('https://api.github.com/repos/ryzenixx/coolify/releases', [
                     'per_page' => 30,
                 ]);
 
