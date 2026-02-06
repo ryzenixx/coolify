@@ -1205,6 +1205,7 @@ All notable changes to this project will be documented in this file.
 - *(auth)* Add keycloak oauth support
 - *(auth)* Add forced oauth login option
 - *(auth)* Enable forced oauth login with bypass
+- Remove 'Feedback' link from the navbar
 
 ### 🐛 Bug Fixes
 
@@ -4455,6 +4456,7 @@ All notable changes to this project will be documented in this file.
 - Update version numbers to 4.0.0-beta.462 and 4.0.0-beta.463
 - Use generic postgresql-client
 - *(auth)* Register keycloak event listener and add translations
+- *(auth)* Resolve undefined request variable in forced oauth login
 
 ### 💼 Other
 
@@ -5684,6 +5686,7 @@ All notable changes to this project will be documented in this file.
 - Add transcript lol link and logo to readme (#7331)
 - *(api)* Change domains to urls
 - *(api)* Improve domains API docs
+- Update changelog
 - Update changelog
 - Update changelog
 - Update changelog
