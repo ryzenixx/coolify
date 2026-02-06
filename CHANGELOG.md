@@ -1202,6 +1202,7 @@ All notable changes to this project will be documented in this file.
 - *(notifications)* Add mattermost notifications (#7963)
 - Configure cloudflare pages redirects
 - Remove 'Sponsor us' link from the navbar
+- *(auth)* Add keycloak oauth support
 
 ### 🐛 Bug Fixes
 
@@ -5680,6 +5681,7 @@ All notable changes to this project will be documented in this file.
 - Add transcript lol link and logo to readme (#7331)
 - *(api)* Change domains to urls
 - *(api)* Improve domains API docs
+- Update changelog
 - Update changelog
 - Update changelog
 - Update changelog
