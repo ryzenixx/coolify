@@ -12,9 +12,9 @@ return [
         'helper_image' => env('HELPER_IMAGE', env('REGISTRY_URL', 'ghcr.io').'/ryzenixx/coolify-helper'),
         'realtime_image' => env('REALTIME_IMAGE', env('REGISTRY_URL', 'ghcr.io').'/ryzenixx/coolify-realtime'),
         'is_windows_docker_desktop' => env('IS_WINDOWS_DOCKER_DESKTOP', false),
-        'cdn_url' => env('CDN_URL', 'https://raw.githubusercontent.com/ryzenixx/coolify/v4.x'),
-        'versions_url' => env('VERSIONS_URL', env('CDN_URL', 'https://raw.githubusercontent.com/ryzenixx/coolify/v4.x').'/versions.json'),
-        'upgrade_script_url' => env('UPGRADE_SCRIPT_URL', env('CDN_URL', 'https://raw.githubusercontent.com/ryzenixx/coolify/v4.x').'/scripts/upgrade.sh'),
+        'cdn_url' => env('CDN_URL', 'https://cdn.maelduret.com/coolify'),
+        'versions_url' => env('VERSIONS_URL', env('CDN_URL', 'https://cdn.maelduret.com/coolify').'/versions.json'),
+        'upgrade_script_url' => env('UPGRADE_SCRIPT_URL', env('CDN_URL', 'https://cdn.maelduret.com/coolify').'/upgrade'),
         'releases_url' => 'https://cdn.coolify.io/releases.json',
     ],
 

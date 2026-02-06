@@ -1,0 +1,3 @@
+/coolify/install https://raw.githubusercontent.com/ryzenixx/coolify/v4.x/scripts/install.sh 302
+/coolify/upgrade https://raw.githubusercontent.com/ryzenixx/coolify/v4.x/scripts/upgrade.sh 302
+/coolify/* https://raw.githubusercontent.com/ryzenixx/coolify/v4.x/:splat 302
