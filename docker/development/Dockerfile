@@ -38,7 +38,7 @@ RUN apk add --no-cache gnupg && \
 
 # Install system dependencies
 RUN apk add --no-cache \
-    postgresql${POSTGRES_VERSION}-client \
+    postgresql-client \
     openssh-client \
     git \
     git-lfs \
