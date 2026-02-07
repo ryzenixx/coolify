@@ -1206,6 +1206,7 @@ All notable changes to this project will be documented in this file.
 - *(auth)* Add forced oauth login option
 - *(auth)* Enable forced oauth login with bypass
 - Remove 'Feedback' link from the navbar
+- Add Makefile
 
 ### 🐛 Bug Fixes
 
@@ -5701,6 +5702,7 @@ All notable changes to this project will be documented in this file.
 - Update changelog
 - Update changelog
 - *(ui)* Simplify skip_oauth bypass instruction
+- Update changelog
 - Update changelog
 - Update changelog
 
