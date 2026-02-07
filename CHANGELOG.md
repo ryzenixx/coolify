@@ -4457,6 +4457,8 @@ All notable changes to this project will be documented in this file.
 - Use generic postgresql-client
 - *(auth)* Register keycloak event listener and add translations
 - *(auth)* Resolve undefined request variable in forced oauth login
+- *(docker)* Use generic postgresql-client to fix build
+- *(seeder)* Prevent data loss during OAuth settings re-seed and add keycloak
 
 ### 💼 Other
 
@@ -5699,6 +5701,7 @@ All notable changes to this project will be documented in this file.
 - Update changelog
 - Update changelog
 - *(ui)* Simplify skip_oauth bypass instruction
+- Update changelog
 - Update changelog
 
 ### ⚡ Performance
