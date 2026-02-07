@@ -4922,6 +4922,7 @@ All notable changes to this project will be documented in this file.
 - Bump superset to 6.0.0
 - Trim whitespace from domain input in instance settings (#7837)
 - Rebase everything on this repository
+- Constrain forced oauth login selector width
 
 ### 🚜 Refactor
 
@@ -5698,6 +5699,7 @@ All notable changes to this project will be documented in this file.
 - Update changelog
 - Update changelog
 - *(ui)* Simplify skip_oauth bypass instruction
+- Update changelog
 
 ### ⚡ Performance
 
