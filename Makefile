@@ -3,3 +3,6 @@
 
 up: .env
 	./vendor/bin/spin up
+
+down:
+	./vendor/bin/spin down
