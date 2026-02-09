@@ -5766,6 +5766,8 @@ All notable changes to this project will be documented in this file.
 - Update changelog
 - Update README to declare project as a fork, adjust installation script, and remove original project's support and sponsorship details.
 - Clarify the installation process, noting its detachment from the official Coolify repository and use of a personal CDN.
+- Update changelog
+- Replace IMPORTANT callout with WARNING in README.
 
 ### ⚡ Performance
 
