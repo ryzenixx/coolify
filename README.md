@@ -24,7 +24,7 @@ For more information, take a look at the original project's landing page at [coo
 
 ## Installation
 
-> [!IMPORTANT]
+> [!WARNING]
 > This installation script installs Coolify from my own CDN which is entirely based on this repository and my own images associated with this repository.
 
 ```bash
