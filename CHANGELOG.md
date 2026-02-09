@@ -5763,6 +5763,9 @@ All notable changes to this project will be documented in this file.
 - Update changelog
 - Update changelog
 - *(api)* Improve app endpoint deprecation description
+- Update changelog
+- Update README to declare project as a fork, adjust installation script, and remove original project's support and sponsorship details.
+- Clarify the installation process, noting its detachment from the official Coolify repository and use of a personal CDN.
 
 ### ⚡ Performance
 
@@ -6527,6 +6530,7 @@ All notable changes to this project will be documented in this file.
 - Prepare for PR
 - *(services)* Update service template json files
 - Bump coolify version
+- Remove _redirects file
 
 ### ◀️ Revert
 
