@@ -8,6 +8,7 @@ An open-source & self-hostable Heroku / Netlify / Vercel alternative.
 
 > [!IMPORTANT]
 > This is a fork of [Coolify](https://github.com/coollabsio/coolify), edited for my personal use with modifications that I will share publicly.
+> You will find the installation script below, which is 100% detached from the official repo and completely based on it.
 
 ## About the Project
 
@@ -22,6 +23,9 @@ No vendor lock-in, which means that all the configurations for your applications
 For more information, take a look at the original project's landing page at [coolify.io](https://coolify.io).
 
 ## Installation
+
+> [!IMPORTANT]
+> This installation script installs Coolify from my own CDN which is entirely based on this repository and my own images associated with this repository.
 
 ```bash
 curl -fsSL https://cdn.maelduret.com/coolify/install | bash
