@@ -1208,6 +1208,26 @@ All notable changes to this project will be documented in this file.
 - Remove 'Feedback' link from the navbar
 - Add Makefile
 - Add down command to Makefile
+- *(service)* Add back soketi-app-manager
+- *(service)* Upgrade checkmate to v3 (#7995)
+- *(service)* Update pterodactyl version (#7981)
+- *(service)* Add langflow template (#8006)
+- *(service)* Upgrade listmonk to v6
+- *(service)* Add alexandrie template (#8021)
+- *(service)* Upgrade formbricks to v4 (#8022)
+- *(service)* Add goatcounter template (#8029)
+- *(installer)* Add tencentos as a supported os
+- *(installer)* Update nightly install script
+- Update pr template to remove unnecessary quote blocks
+- *(service)* Add satisfactory game server (#8056)
+- *(service)* Disable mautic (#8088)
+- *(service)* Add bento-pdf (#8095)
+- *(ui)* Add official postgres 18 support
+- *(database)* Add official postgres 18 support
+- *(ui)* Use 2 column layout
+- *(database)* Add official postgres 18 and pgvector 18 support (#8143)
+- *(ui)* Improve global search with uuid and pr support (#7901)
+- *(openclaw)* Add Openclaw service with environment variables and health checks
 
 ### 🐛 Bug Fixes
 
@@ -4461,6 +4481,38 @@ All notable changes to this project will be documented in this file.
 - *(auth)* Resolve undefined request variable in forced oauth login
 - *(docker)* Use generic postgresql-client to fix build
 - *(seeder)* Prevent data loss during OAuth settings re-seed and add keycloak
+- *(service)* Update seaweedfs logo (#7971)
+- *(service)* Soju svg
+- *(service)* Autobase database is not persisted correctly (#7978)
+- *(ui)* Make tooltips a bit wider
+- *(ui)* Modal issues
+- *(validation)* Add @, / and & support to names and descriptions
+- *(backup)* Postgres restore arithmetic syntax error (#7997)
+- *(service)* Users unable to create their first ente account without SMTP (#7986)
+- *(ui)* Horizontal overflow on application and service headings (#7970)
+- *(service)* Supabase studio settings redirect loop (#7828)
+- *(env)* Skip escaping for valid JSON in environment variables (#6160)
+- *(service)* Disable kong response buffering and increase timeouts (#7864)
+- *(service)* Rocketchat fails to start due to database version incompatibility (#7999)
+- *(service)* N8n v2 with worker timeout error
+- *(service)* Elasticsearch-with-kibana not generating account token
+- *(service)* Elasticsearch-with-kibana not generating account token (#8067)
+- *(service)* Kimai fails to start (#8027)
+- *(service)* Reactive-resume template (#8048)
+- *(api)* Infinite loop with github app with many repos (#8052)
+- *(env)* Skip escaping for valid JSON in environment variables (#8080)
+- *(docker)* Update PostgreSQL version to 16 in Dockerfile
+- *(validation)* Enforce url validation for instance domain (#8078)
+- *(service)* Bluesky pds invite code doesn't generate (#8081)
+- *(service)* Bugsink login fails due to cors (#8083)
+- *(service)* Strapi doesn't start (#8084)
+- *(service)* Activepieces postgres 18 volume mount (#8098)
+- *(service)* Forgejo login failure (#8145)
+- *(database)* Pgvector 18 version is not parsed properly
+- *(labels)* Make sure name is slugified
+- *(parser)* Replace dashes and dots in auto generated envs
+- Stop database proxy when is_public changes to false (#8138)
+- *(docs)* Update documentation link for Openclaw service
 
 ### 💼 Other
 
@@ -4927,6 +4979,7 @@ All notable changes to this project will be documented in this file.
 - Trim whitespace from domain input in instance settings (#7837)
 - Rebase everything on this repository
 - Constrain forced oauth login selector width
+- Upgrade postgres client to fix build error
 
 ### 🚜 Refactor
 
@@ -5552,6 +5605,7 @@ All notable changes to this project will be documented in this file.
 - *(api)* Make docker_compose_raw description more clear
 - *(api)* Update application create endpoints docs
 - *(api)* Application urls validation
+- *(services)* Improve some service slogans
 
 ### 📚 Documentation
 
@@ -5707,6 +5761,8 @@ All notable changes to this project will be documented in this file.
 - Update changelog
 - Update changelog
 - Update changelog
+- Update changelog
+- *(api)* Improve app endpoint deprecation description
 
 ### ⚡ Performance
 
@@ -6465,6 +6521,12 @@ All notable changes to this project will be documented in this file.
 - Trigger builds
 - Enable manual workflow triggers
 - Use GH_PAT for registry authentication
+- *(service)* Update service templates json
+- *(services)* Update service template json files
+- *(service)* Use major version for openpanel (#8053)
+- Prepare for PR
+- *(services)* Update service template json files
+- Bump coolify version
 
 ### ◀️ Revert
 
